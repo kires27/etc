@@ -1,1 +1,14 @@
-www.youtube.com##ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-of-type(1) > div.style-scope.ytd-guide-section-renderer > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:nth-of-type(2) > .yt-simple-endpoint.style-scope.ytd-guide-entry-renderer > tp-yt-paper-item.style-scope.ytd-guide-entry-renderer
+// gmail ads
+mail.google.com##.byE.zE.zA
+
+// instagram
+www.instagram.com##a[href='/reels/']
+www.instagram.com##a[href='/explore/']
+www.instagram.com##div.x1azxncr
+
+// youtube
+www.youtube.com##ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-of-type(3)
+www.youtube.com##ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-of-type(4)
+www.youtube.com##ytd-browse.style-scope.ytd-page-manager:nth-of-type(1) > .style-scope.ytd-browse.grid.grid-disabled > div.style-scope.ytd-two-column-browse-results-renderer:nth-of-type(1) > .style-scope.ytd-two-column-browse-results-renderer > div.style-scope.ytd-rich-grid-renderer:nth-of-type(6)
+www.youtube.com##.ytp-endscreen-content
+www.youtube.com##ytd-item-section-renderer.style-scope.ytd-watch-next-secondary-results-renderer
