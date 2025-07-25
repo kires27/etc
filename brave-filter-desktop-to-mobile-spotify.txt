@@ -1,9 +1,9 @@
 ! root
-open.spotify.com##html:style(overflow: hidden !important;)
-open.spotify.com##body:style(overflow: hidden !important;)
-open.spotify.com###main:style(overflow: hidden !important;)
-open.spotify.com###main > div[data-testid="root"]:style(overflow: hidden !important;)
-open.spotify.com###main > div[data-testid="root"] > div:nth-child(2):style(overflow: hidden !important;)
+!open.spotify.com##html:style(overflow: hidden !important;)
+!open.spotify.com##body:style(overflow: hidden !important;)
+!open.spotify.com###main:style(overflow: hidden !important;)
+!open.spotify.com###main > div[data-testid="root"]:style(overflow: hidden !important;)
+!open.spotify.com###main > div[data-testid="root"] > div:nth-child(2):style(overflow: hidden !important;)
 
 ! zoom parts of website
 open.spotify.com###global-nav-bar:style(zoom: 1.5;)
