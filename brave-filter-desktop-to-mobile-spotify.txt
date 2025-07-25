@@ -1,0 +1,27 @@
+! root
+!open.spotify.com###main > div[data-testid="root"] > div:nth-child(2) > div:style(zoom: 1 !important;)
+
+! zoom parts of website
+open.spotify.com###global-nav-bar:style(zoom: 1.4;)
+open.spotify.com###Desktop_LeftSidebar_Id:style(zoom: 1.8;)
+open.spotify.com###main-view main:style(zoom: 1.4;)
+open.spotify.com##aside[data-testid="now-playing-bar"] > div:nth-child(1):style(zoom: 1.8;)
+
+! right panel
+open.spotify.com###main > div[data-testid="root"] > div:nth-child(2) > div:nth-child(7)
+
+! global nav bar - annoyances
+open.spotify.com###global-nav-bar > div:nth-child(4) > div > *:not(button[data-testid="user-widget-link"])
+
+! main view, sticky top bar
+open.spotify.com###main-view main > div:nth-child(3)
+
+! now playng bottom bar
+open.spotify.com##aside[data-testid="now-playing-bar"] > div:nth-child(1):style(height: 145px !important; justify-content: flex-start !important; flex-direction: column !important;)
+
+open.spotify.com##aside[data-testid="now-playing-bar"] > div:nth-child(1) > div:style(width: 100% !important;)
+
+open.spotify.com##aside[data-testid="now-playing-bar"] > div:nth-child(1) > div:nth-child(3) > div:style(justify-content: space-evenly !important;)
+
+! green banner - now playng web player notification
+open.spotify.com##aside[data-testid="now-playing-bar"] > div:nth-child(2)
