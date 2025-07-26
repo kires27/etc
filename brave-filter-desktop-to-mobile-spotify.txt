@@ -1,18 +1,23 @@
 ! root
-!open.spotify.com##html:style(overflow: hidden !important;)
-!open.spotify.com##body:style(overflow: hidden !important;)
-!open.spotify.com###main:style(overflow: hidden !important;)
-!open.spotify.com###main > div[data-testid="root"]:style(overflow: hidden !important;)
-!open.spotify.com###main > div[data-testid="root"] > div:nth-child(2):style(overflow: hidden !important;)
+open.spotify.com###main:style(overflow: hidden !important;)
 
 ! zoom parts of website
-open.spotify.com###global-nav-bar:style(zoom: 1.5;)
-open.spotify.com###Desktop_LeftSidebar_Id:style(zoom: 2;)
-open.spotify.com###main-view main:style(zoom: 1.5;)
-open.spotify.com##aside[data-testid="now-playing-bar"] > div:nth-child(1):style(zoom: 2;)
+open.spotify.com###global-nav-bar:style(zoom: 1.6;)
+open.spotify.com###main-view main:style(zoom: 1.7;)
+open.spotify.com##aside[data-testid="now-playing-bar"] > div:nth-child(1):style(zoom: 2.2;)
 
 ! right panel
 open.spotify.com###main > div[data-testid="root"] > div:nth-child(2) > div:nth-child(7)
+
+! left panel
+! width
+open.spotify.com###Desktop_LeftSidebar_Id:style(width:auto !important;)
+! bottom padding to fix fetching limitation caused by zoom
+open.spotify.com###Desktop_LeftSidebar_Id>nav>div>div>div:nth-child(2)>div:nth-child(1)>div:style(margin-bottom:100vh !important;)
+! zoom
+open.spotify.com##div[aria-label="Your Library"] > div > div > div:nth-child(2) > div:style(zoom:2;)
+open.spotify.com###Desktop_LeftSidebar_Id>nav>div>div>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(1):style(zoom:1.8;)
+open.spotify.com###Desktop_LeftSidebar_Id>nav>div>div>div:nth-child(1):style(zoom:1.8;)
 
 ! global nav bar - annoyances
 open.spotify.com###global-nav-bar > div:nth-child(4) > div > *:not(button[data-testid="user-widget-link"])
