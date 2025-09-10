@@ -33,3 +33,7 @@ m.youtube.com##ytm-pivot-bar-renderer[class="frosted-glass"] > ytm-pivot-bar-ite
 m.youtube.com##div.rich-grid-renderer-contents
 ! Hide related videos sidebar
 m.youtube.com##ytm-item-section-renderer[section-identifier="related-items"]
+
+! --- reddit ---
+www.reddit.com##div.virtualized-placeholder
+www.reddit.com##article.m-0.w-full:nth-of-type(n+15)
