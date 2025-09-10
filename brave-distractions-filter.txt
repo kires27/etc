@@ -35,5 +35,6 @@ m.youtube.com##div.rich-grid-renderer-contents
 m.youtube.com##ytm-item-section-renderer[section-identifier="related-items"]
 
 ! --- reddit ---
+! limit number of post displayed in a feed
 www.reddit.com##div.virtualized-placeholder
 www.reddit.com##article.m-0.w-full:nth-of-type(n+15)
