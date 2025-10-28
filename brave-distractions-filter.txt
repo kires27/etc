@@ -23,15 +23,20 @@ www.youtube.com##ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-o
 www.youtube.com##ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-of-type(4)
 !
 ! video endscreen
-www.youtube.com##.ytp-endscreen-content
+!www.youtube.com##.ytp-endscreen-content
+www.youtube.com##.ytp-fullscreen-grid-main-content
 !
 ! related videos sidebar
 www.youtube.com##ytd-item-section-renderer.style-scope.ytd-watch-next-secondary-results-renderer
 m.youtube.com##ytm-item-section-renderer[section-identifier="related-items"]
 !
-! homepage video recommendations
-www.youtube.com##:root:has(ytd-browse[page-subtype="home"]) ytd-rich-grid-renderer:upward(3)
-m.youtube.com##div.rich-grid-renderer-contents
+! homepage video recommendations and subscription videos
+www.youtube.com##ytd-rich-grid-renderer
+!www.youtube.com##:root:has(ytd-browse[page-subtype="home"]) ytd-rich-grid-renderer:upward(3)
+  ! homepage
+  m.youtube.com##div.rich-grid-renderer-contents
+  ! subscriptions
+  m.youtube.com##ytm-section-list-renderer
 !
 ! yt shorts block scrolling
 youtube.com##div.reel-video-in-sequence-new:not([id="0"])
